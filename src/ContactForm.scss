@@ -1,0 +1,212 @@
+//body{
+    // background: black; // TODO: DECIDE THE BACKGROUND COLOR OF THE ENTIRE PAGE 
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+
+
+    // background: cover !important;
+    // z-index: -1000;
+    // height: 100vh;
+    // width: 100vh;
+
+//}
+
+.outer-div{
+    background: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    z-index: -10000;
+}
+
+
+// .tsparticles-canvas-el{
+//     width: 100%;
+//     height: 100%;
+//     margin: 0;
+//     padding: 0;
+//     background: cover;
+// }
+
+#tsparticles{
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.particles-js{
+    height: 100% !important;
+    width: 100% !important;
+    position: absolute;
+    z-index: -0.2 !important;
+    background-size:cover !important;
+}
+
+.upper-text{
+    margin-top: 10%;
+}
+h3{
+    text-align: center;
+    color: white; // TODO: Decide the color the <contact/> on top of the contact page
+    font-size: 3rem;
+    font-weight: 300;
+    text-shadow: 0px 1px 3px rgba(255,255,255,0.9);
+}
+p.sub-title{
+    color: white; // TODO: Decide the color of the subtitle below the heading of "<contact/>"
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-shadow: 0px 1px 3px rgba(255,255,255,0.9);
+}
+#contact-container{
+    padding: 0;
+    margin: auto;
+    width: 1200px;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 10px;
+    display: flex;
+    margin-top: 5%;
+    // background: white;
+    backdrop-filter: blur(15px);
+    -webkit-box-shadow: 0px 10px 33px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 33px 0px rgba(0,0,0,0.75);
+    box-shadow: 0 10px 33px 0px rgba(255,255,255, 0.1);
+    border: 1px solid rgba(255,255,255,0.2);
+    .contact-info{
+        background-color:#5904c2; //TODO: HAVE TO DECIDE ON THE COLOR LATER
+        border-radius: 15px;
+        flex: 0 1 40%;
+        padding: 40px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        h4{
+            font-size: 2rem;
+            font-weight: 500;
+            //margin-top: 0;
+            margin:0;
+        }
+        p{
+            color: rgba(255,255,255,0.7);
+            font-size: 1.2rem;
+            font-weight: 300;
+            margin-bottom: 2rem;
+        }
+        .icon-text{
+            display: flex; 
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 2rem;
+            .fa{
+                flex: 0 0 20px;
+                font-size: 1.8rem; 
+                margin-right: 2rem;
+                color: #05f7ff; // TODO: DECIDE THE COLORS OF THE PHONE, ENVELOPE AND MAP ICONS
+            }
+            span{
+                font-size: 1.3rem;
+                font-weight: 300;
+            }
+        }
+        .social-media{
+            display:flex;
+            width: 25%;
+            justify-content: space-between;
+            .icon-circle{
+                flex: 0 0 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 40px;
+                border-radius: 50%;
+                text-decoration: none;
+                transition: all 0.3s ease-in-out;
+                &:hover{
+                    background: #05f7ff;  // TODO: DECIDE THE COLOR OF THE HOVER CIRCLES AROUND LINKEDIN AND GITHUB
+                }
+                i{
+                    color: white; // TODO: DECIDE THE COLORS OF THE ICONS FOR LINKEDIN AND GITHUB
+                }
+                .fa{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+    form{
+        padding: 40px;
+        width: 100%;
+        .col{
+            display: flex;
+            width: 100%;
+            flex: 0 0 100%;
+        }
+        .form-group{
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            flex: 0 1 100%;
+            padding-right: 40px;
+            label{
+                font-size: 0.9;
+                color: rgba(255,255,255,0.6); // TODO: DECIDE THE COLOR OF THE TEXT THAT COMES ABOVE THE EMPTY BOXES LIKE FIRST NAME, LAST NAME, ETC. 
+                margin-bottom:1rem;
+            }
+            input[type = "text"], input[type = "email"], textarea{
+                // background: rgba(255,255,255,0.2);
+                border: none;
+                cursor: pointer;
+                padding: 10px;
+                font-size: 1.5rem;
+                font-weight: 300;
+                color: white;
+                background: transparent;
+                border-bottom: 2px solid rgba(255,255,255,0.4);
+                transition: all 0.3s ease-in-out;
+                margin-bottom: 2rem;
+                &:focus{
+                    border: none;
+                    outline:none;
+                    border-bottom: 2px solid #05f7ff; // TODO: CHANGE THE COLOR OF THE UNDERLINED TEXT ON THE INPUT BOXES
+                }
+            }
+            &:nth-child(2){
+                padding-right: 0;
+            }
+            &.solo{
+                padding: 0;
+            }
+            &.right{
+                align-items: flex-end;
+            }
+            button{
+                width: 200px;
+                height: 60px;
+                cursor: pointer;
+                background: white;
+                border: none;
+                text-transform: uppercase;
+                border-radius: 5px;
+            }
+            span{
+                margin-top: -1.5rem;
+                padding-bottom: 1.5rem;
+            }
+            .errorMessage{
+                color: #e05353;
+                font-size: 0.75rem;
+                position: relative;
+                margin-bottom: 0.25rem;
+            }
+        }
+    }
+}
