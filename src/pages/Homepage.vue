@@ -43,15 +43,11 @@
                 <div class="card m-0 edu-card">
                     <div class="card-body">
                         <h5 class="card-title">University of Michigan</h5>
-
                         <h6 class="card-subtitle mb-2 text-muted"><b>B.S. in Computer Science</b>;
                             College of Literature, Science, and the Arts</h6>
-                        <!-- <h6 class="card-subtitle mb-2 text-muted"><b>B.B.A.</b>; Ross School of Business</h6>
-                        <h6 class="card-subtitle mb-2 text-muted"><b>B.S.Chem</b>; College of Literature,
-                            Science, and the Arts</h6>
-                        <hr/> -->
-                        <p>Fall 2019 - present</p>
-                        <p>GPA: <b>3.912 / 4.0</b></p>
+                        <p>Fall 2020 - present</p>
+                        <p>Expected Completion: Fall 2023</p>
+                        <p>GPA: <b>3.9 / 4.0</b></p>
                     </div>
                 </div>
             </div>
@@ -64,39 +60,25 @@
                 <div class="col-12 col-md-6 col-xl-4 flex-grow-1">
                     <CourseCard course-name="EECS203" course-title="Discrete Mathematics"
                                 :description="descriptions['eecs203']"/>
-                    <CourseCard course-name="EECS280" course-title="Programming and Intro Data Structures"
-                                :description="descriptions['eecs280']"/>
-                    <CourseCard course-name="EECS281" course-title="Data Structures and Algorithms"
-                                :description="descriptions['eecs281']"
+                    <CourseCard course-name="EECS183" course-title="Elementary Programming Concepts"
+                                :description="descriptions['eecs183']"
                                 class="course-one-col course-two-col"/>
-                    <!-- <CourseCard course-name="EECS370" course-title="Intro to Computer Organization"
-                                :description="descriptions['eecs370']"
-                                class="course-one-col course-two-col"/> -->
                     <CourseCard course-name="EECS376" course-title="Fundamentals of Computer Science"
                                 :description="descriptions['eecs376']"
                                 class="course-one-col course-two-col"/>
-                </div>
-                <div class="col-12 col-md-6 col-xl-4 flex-grow-1 course-three-col">
-                    <!-- <CourseCard course-name="EECS370" course-title="Intro to Computer Organization"
-                                :description="descriptions['eecs370']"/> -->
-                    <CourseCard course-name="EECS376" course-title="Fundamentals of Computer Science"
-                                :description="descriptions['eecs376']"/>
                     <CourseCard course-name="EECS281" course-title="Data Structures and Algorithms"
                                 :description="descriptions['eecs281']"/>
-                    <!-- <CourseCard course-name="EECS441" course-title="Mobile App Development for Entrepreneurs"
-                                :description="descriptions['eecs441']"/> -->
                 </div>
-                <!-- <div class="col-12 col-md-6 col-xl-4 flex-grow-1">
-                    <CourseCard course-name="EECS482" course-title="Introduction to Operating Systems"
-                                :description="descriptions['eecs482']"/>
-                    <CourseCard course-name="EECS493" course-title="User Interface Development"
-                                :description="descriptions['eecs493']"/>
-                    <CourseCard course-name="EECS441" course-title="Mobile App Development for Entrepreneurs"
-                                :description="descriptions['eecs441']"
-                                class="course-one-col course-two-col"/>
-                    <CourseCard course-name="EECS485" course-title="Web Development"
-                                :description="descriptions['eecs485']"/>
-                </div> -->
+                <div class="col-12 col-md-6 col-xl-4 flex-grow-1 course-three-col">
+                    <CourseCard course-name="EECS183" course-title="Elementary Programming Concepts"
+                                :description="descriptions['eecs183']"/>
+                    <CourseCard course-name="EECS376" course-title="Fundamentals of Computer Science"
+                                :description="descriptions['eecs376']"/>
+                </div>
+                <div class="col-12 col-md-6 col-xl-4 flex-grow-1">
+                    <CourseCard course-name="EECS280" course-title="Programming and Intro Data Structures"
+                                :description="descriptions['eecs280']"/>
+                </div>
             </div>
         </div>
 
@@ -376,22 +358,26 @@
 
                 descriptions: {
                     'eecs203':
-                        "Foundations of theoretical computer science. EECS203 covers proofs and proof techniques, Boolean logic, combinatorics, induction, sets and functions, relations, and graphs.",
-                    'eecs280':
-                        `Introductory course to C++. EECS280 covers pointers, dynamic memory, structs and classes, inheritance, data structures such as linked lists and binary search trees, and basic recursion. Projects in EECS280 include:
+                        "Foundations of theoretical computer science. Topics covered include: propositional and predicate logic, proof methods, set theory, functions, sequences and summations, introduction to algorithms, growth of functions and asymptotic notation, mathematical induction, counting, pigeonhole principle, permutations and combinations, relations and their properties, closure of relations, partial orderings, and introduction to graph theory.",
+                    'eecs183':
+                        `
+                        Introductory course in computer programming. Topics covered include control flow, introductory data structures, algorithms using selection and iteration, basic object-oriented programming, testing, and debugging. EECS183 primarily uses C++ and Python as its programming languages. Projects in EECS183 include:
                         <ul>
-                        <li><span class="bold">Euchre</span>: implementation of a game of Euchre, with various parameters able to be specified via command line arguments. Tested understanding of and ability to implement inheritance in C++ classes, as well as polymorphism.</li>
-                        <li><span class="bold">Web Server</span>: implementation of a REST API web server for an office hours queue. Tested understanding of and ability to implement linked lists, as well as usage of a C++ library for JSON format.</li>
-                        <li><span class="bold">Machine Learning</span>: implementation of a Naive Bayesian classifier based on the bag of words model. Tested understanding of and ability to implement binary search trees, as well as usage of the <span class="font-monospace">std::map</span> class.</li>
+                        <li><span class="bold">Birthdays</span>:  Implemented an application that is able to identify the date of the week on which you were born. Tested understanding of and ability to work with while loops and conditional statements in conjunction with nested function calls.</li>
+                        <li><span class="bold">Oh h1</span>: Implemented a command-line application to read, check, solve, and play basic instances of 0h h1, a Sudoku-like puzzle game. Tested understanding of and ability to work with complex selection and iteration algorithms, debugging, and edge case identification.</li>
+                        <li><span class="bold">Coolpics</span>: Implemented an application that is able to load text files to form shapes of varied configurations (circles, rectangles, triangles, etc) to create a complete picture in .bmp format. Tested understanding of and ability to work with too many files through thoughtful inheritance.</li>
+                        <li><span class="bold">Elevators</span>: Implemented a game in which the player operates 3 elevators in a busy building, making decisions and servicing requests to keep the people inside the building as happy as possible. Tested understanding of and ability to work with game designs, principles of artificial intelligence, and designing modest real-world systems using C++.</li>
+                        </ul>`,
+                    'eecs280':
+                        `Computer science fundamentals, with programming in C++. EECS280 covers pointers, dynamic memory and memory models, structs and classes, inheritance, polymorphism, iterators, data structures such as linked lists and binary search trees, and basic recursion. Projects in EECS280 include:
+                        <ul>
+                        <li><span class="bold">Computer Vision</span>: Implemented the seam carving algorithm, a technique for content-aware resizing of images, to resize images in a way that changes the aspect ratio but does not distort the image. Tested understanding of and ability to work with pointers, arrays, structs, strings, and basic I/O operations, as well as C-style object-based programming.</li>
+                        <li><span class="bold">Euchre</span>: Implemented a trick-taking card game with several parameters able to be specified via command-line arguments. Tested understanding of and ability to work with abstract data types, object-oriented programming, and polymorphism. The project also made extensive use of classes, <span class="font-monospace">std::array</span>, <span class="font-monospace">std::vector</span>, and C++ style strings.</li>
+                        <li><span class="bold">Web Server</span>: Implemented a REST API web server, which reads and writes an HTTP subset on stdin and stdout, for an office hours queue. Tested understanding of and ability to implement linked lists, iterators, C++ library for JSON format as well as code free from memory leaks.</li>
+                        <li><span class="bold">Machine Learning</span>: Implemented a Naive Bayesian classifier based on the bag of words model to automatically identify the subject of posts from the EECS280 Piazza post. Tested understanding of and ability to design the overall application and implement binary trees, recursion, templates, comparators, and the <span class="font-monospace">std::map</span> class.</li>
                         </ul>`,
                     'eecs281':
-                        `Introduction to data structures and algorithms. EECS281 covers algorithms such as binary search, sorting, binary heaps, shortest path algorithms, DFS and BFS, the traveling salesperson problem, and dynamic programming. Projects in EECS281 include:
-                        <ul>
-                        <li><span class="bold">Puzzle</span>: implemented BFS and DFS algorithms to solve a puzzle game, where the player can open and close pathways by walking over certain tiles.</li>
-                        <li><span class="bold">Stocks</span>: used priority queues to simulate a stock market, where buyers and sellers propose different prices. Various statistics can also be printed during the simulation, including a running median (also implemented with priority queues)</li>
-                        <li><span class="bold">SillyQL</span>: implementation of a simple version of SQL, with column indices to speed up searching tables. Tested understanding of and ability to use hash maps.</li>
-                        <li><span class="bold">Drones</span>: implementation of MST algorithms, and a branch-and-bound search as well as a heuristic-based traveling salesperson solution.</li>
-                        </ul>`,
+                        `<span style="color: var(--rose-madder)">Will be taking this Fall 2021!</span> Stay tuned for updates!`,
                     'eecs370':
                         `Study of computer architecture. EECS370 covers assembly language, processor datapaths, caching, and virtual memory. Projects in EECS370 include:
                         <ul>
@@ -400,7 +386,7 @@
                         <li><span class="bold">Cache Simulator</span>: simulator for a single-cycle datapath with a memory cache. Includes support for fully associative, direct mapped, and set associative caches via command line arguments.</li>
                         </ul>`,
                     'eecs376':
-                        `Theoretical computer science. EECS376 covers computability, recognizability, Turing Machines, complexity (P vs NP), and cryptography.`,
+                        `<span style="color: var(--rose-madder)">Will be taking this Fall 2021!</span> Stay tuned for updates!`,
                     'eecs482':
                         `Study of operating systems and low-level workings of computers. EECS482 covers multithreading and concurrency, virtual memory, file systems, virtual machines, and remote procedure calls. Projects in EECS482 include:
                         <ul>
