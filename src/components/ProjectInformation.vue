@@ -50,10 +50,12 @@
                         <p>If you'd like to check out <span class="italic">shift</span> for yourself, you can find it <a href="https://danlliu.github.io/shift" target="_blank" rel="noopener noreferrer"> here</a>!</p>`
                     },
                     {
-                        name: "this is all made up",
+                        name: "Task Manager",
                         html:
-                        `<p>The third programming language, <span class="italic">this is all made up</span> combines elements of assembly and two-dimensional languages such as Befunge to create one of the strangest and most challenging programming languages. The interface may seem overwhelming, but is almost essential in debugging programs. "this is all made up" was made to be a challenging puzzle, and even a simple operation as addition can take nearly 30 lines of code and multiple hours of planning to implement correctly.</p>
-                        <p>If you'd like to check out <span class="italic">this is all made up</span> for yourself, you can find it <a href="https://danlliu.github.io/thisisallmadeup" target="_blank" rel="noopener noreferrer">here</a>! Good luck :)</p>`
+                        `<p>Task Manager is a backend application that is centered around the needs of a user. This <span class="italic">REST API</span> is designed such that the users can set up login credentials for their accounts and create, read, update and delete their tasks. All the information about the users is securely stored using a <span class="italic">MongoDB server</span>.</p>
+                        <p>Task Manager is a <span class="italic">NodeJS API</span>, whose different routes(get, post, patch, delete) are implemented using <span class="italic">Express</span> and the schema for a user and a task is implemented using <span class="italic">Mongoose</span>. All the routes in the API use a custom <span class="italic">Express middleware</span> that leverages capabilities from <span class="italic">JSON Web Tokens</span> to ensure effective authentication. In this way, users are authorized to only read, update or delete their own tasks. To protect the users' login credentials in the database, all the passwords are hashed before storage. Through the <span class="italic">SendGrid API</span>, authenticated users are also able to send emails using <span class="italic">NodeJS</span>. All of this functionality, which is written using asynchronous JS code, is tested extensively using the <span class="italic">Jest</span> JavaScript testing framework.</p>
+                        <p>Not only did this project expose me to several backend technologies, but it also inclucated in me the art of designing REST APIs.</p>
+                        <p>If you would like to know more about the API’s implementation details, check out my GitHub <a href="https://github.com/arryan135/task_manager" target="_blank" rel="noopener noreferrer">repo</a>.</p>`
                     },
                     {
                         name: "creative writing",
