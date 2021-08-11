@@ -26,11 +26,13 @@
 
                 projectInformation: [
                     {
-                        name: "danlliu.github.io",
+                        name: "CheatBook",
                         html:
-                            `<p>You're here right now! This is my personal website, built with Vue.js and Bootstrap. You can find the source code
-                             at
-                             <a href="https://github.com/danlliu/danlliu.github.io" target="_blank" rel="noopener noreferrer">github.com/danlliu/danlliu.github.io</a>.</p>`
+                        `<p>In the past, I have used coding documentations to review the forgotten functional nuances of many JS frameworks. I even tried making coding cheatsheets. But reading code without actually executing it doesn’t help me review the concepts effectively. Of course, I can always run that code in an IDE. But executing code specific to a framework requires some work like setting up your directory and applying other configurational modifications which can be tedious.</p>
+                         <p>Therefore using React and Typescript, I developed CheatBook which is an interactive browser-based coding environment. It is like a Jupyter Notebook, but for JavaScript. It utilizes a cell-based layout where the user can choose between a code editor or a markdown text editor. While using the code editor cell, this app utilizes Esbuild to transpile and bundle the code and safely execute it directly in the browser. By leveraging web assembly and caching, the execution times are as fast as those of a traditional IDE. All of the complex state within the app is handled using Redux. Moreover, this frontend is also patched up to a NodeJS backend. By using a Redux middleware and an Express server, CheatBook persists the contents in the cells on a local JSON file.</p>
+                         <p>CheatBook is designed to be used as a CLI on your local machine and you can learn more about its package-based architecture at the <a href="https://www.npmjs.com/package/cheatbook" target="_blank" rel="noopener noreferrer">NPM registry</a>.</p>
+                         <p>If you would like to check out CheatBook for yourself, you can find it <a href="https://arryan135.github.io/local_client_cheatbook/" target="_blank" rel="noopener noreferrer">here</a>!</p>`
+                            
                     },
                     {
                         name: "beep boop",
@@ -104,12 +106,12 @@
                             <small id="turret3-caption">The upgrade screen of Turret Wars, allowing the player to make their spaceship better.</small>
                          </div>`
                     },
-                    {
-                        name: "linktracker",
-                        html:
-                        `<p>During the pandemic, many of us use virtual conferencing software such as Zoom or Google Meet to collaborate with others. However, it can be tough to keep track of the myriad links used to join different meetings. That's why I developed linktracker, an app that helps you keep track of meeting links in your browser. Using the browser's storage, linktracker is able to remember when your meetings take place and the links associated with them, and gives you the option to filter events in different ways. linktracker also includes some convenience features such as editing events, and dark mode.</p>
-                        <p>If you'd like to try out linktracker for yourself, you can find it <a href="https://danlliu.github.io/linktracker" target="_blank" rel="noopener noreferrer">here</a>!</p>`
-                    }
+                    // {
+                    //     name: "linktracker",
+                    //     html:
+                    //     `<p>During the pandemic, many of us use virtual conferencing software such as Zoom or Google Meet to collaborate with others. However, it can be tough to keep track of the myriad links used to join different meetings. That's why I developed linktracker, an app that helps you keep track of meeting links in your browser. Using the browser's storage, linktracker is able to remember when your meetings take place and the links associated with them, and gives you the option to filter events in different ways. linktracker also includes some convenience features such as editing events, and dark mode.</p>
+                    //     <p>If you'd like to try out linktracker for yourself, you can find it <a href="https://danlliu.github.io/linktracker" target="_blank" rel="noopener noreferrer">here</a>!</p>`
+                    // }
                 ]
             }
         },
