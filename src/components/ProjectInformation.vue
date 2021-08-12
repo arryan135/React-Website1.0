@@ -58,10 +58,16 @@
                         <p>If you would like to know more about the API’s implementation details, check out my GitHub <a href="https://github.com/arryan135/task_manager" target="_blank" rel="noopener noreferrer">repo</a>.</p>`
                     },
                     {
+                        name: "Maze Maker",
+                        html:
+                        `<p>One of my earliest HTML projects, I implemented the Aldous-Broder algorithm to randomly generate mazes of an arbitrary size. The mazes are displayed using HTML canvas. Due to the algorithm used to generate the maze, every cell is reachable from the beginning, and there is a unique solution from beginning to end.</p>
+                        <p>If you'd like to check out Maze Maker for yourself, you can find it <a href="https://danlliu.github.io/Maze-Maker" target="_blank" rel="noopener noreferrer">here</a>!</p>`
+                    },
+                    {
                         name: "Lights Out",
                         html:
                         `<p>Lights Out is a puzzle game, played on a grid of individual lights, which can be lit or unlit. The puzzle is won when all of the lights are turned off. You can click on a cell to toggle the light in a cell, but it also toggles the light above it, to the left of it, to the right of it, and below it. Cells on the edge or in the corner won’t flip as many lights, since they are missing some neighbors.</p>
-                         <p>All the logic of the game is handled by the changes in the state and props of the parent and child <span class="italic">React</span> components. Using <span class="italic">JavaScript</span> logic, the app makes sure that the random board created at the start of the game is always solvable. For performance optimization, this application also utilizes a <span class="italic">Service Worker</span> that lets this app load faster on subsequent visits in production, and gives it offline capabilities.</p>
+                         <p>All the logic of the game is handled by the changes in the state and props of the parent and child <span class="italic">React</span> components. Using <span class="italic">JavaScript</span> logic, the app makes sure that the random board created at the start of the game is always solvable. For optimizing the production build's performance, this is another application that also utilizes a <span class="italic">Service Worker</span> that lets this app load faster on subsequent visits in production, and gives it offline capabilities.</p>
                          <p>If you would like to check out Lights Out for yourself, you can find it <a href="https://arryan135.github.io/lights_out/" target="_blank" rel="noopener noreferrer">here</a>! I am personally terrible at this game and I hope you are better at playing it than I am!</p>
                          <p>If you would like to know more about the game’s implementation details, check out my GitHub <a href="https://github.com/arryan135/lights_out" target="_blank" rel="noopener noreferrer">repo</a>.</p>`
                     },
@@ -72,12 +78,6 @@
                         <p>The game logic is primarily implemented through the changes in the props and states of several <span class="italic">React Components</span>. Furthermore, to ensure performance optimization in the execution time of the game, I developed a <span class="italic">Service Worker</span> that runs in conjunction with the game to serve static image assets from the local cache. This lets the game load faster on subsequent visits in production and gives it offline capabilities. However, it also means that users of this game will only see deployed updates on the "N+1" visit to a page since previously cached resources are updated in the background.</p>
                         <p>If you would like to check out Hangman for yourself, you can find it <a href="https://arryan135.github.io/hangman/" target="_blank" rel="noopener noreferrer">here</a>! (If it feels too zoomed in, just zoom out)</p>
                         <p>If you would like to know more about the game’s implementation details, check out my GitHub <a href="https://github.com/arryan135/hangman" target="_blank" rel="noopener noreferrer">repo</a>.</p>`
-                    },
-                    {
-                        name: "Maze Maker",
-                        html:
-                        `<p>One of my earliest HTML projects, I implemented the Aldous-Broder algorithm to randomly generate mazes of an arbitrary size. The mazes are displayed using HTML canvas. Due to the algorithm used to generate the maze, every cell is reachable from the beginning, and there is a unique solution from beginning to end.</p>
-                        <p>If you'd like to check out Maze Maker for yourself, you can find it <a href="https://danlliu.github.io/Maze-Maker" target="_blank" rel="noopener noreferrer">here</a>!</p>`
                     },
                     {
                         name: "chatroom",
