@@ -58,10 +58,12 @@
                         <p>If you would like to know more about the API’s implementation details, check out my GitHub <a href="https://github.com/arryan135/task_manager" target="_blank" rel="noopener noreferrer">repo</a>.</p>`
                     },
                     {
-                        name: "creative writing",
+                        name: "Hangman",
                         html:
-                        `<p>The most recent programming language design project, <span class="italic">creative writing</span> uses keywords chosen from the most common English words. It takes inspiration from the concept of polymorphic code, where the same program can be called in multiple different languages without modification. The choice of keywords allows creative writing programs to be disguised as other programming languages, notes, or short stories. Words with extremely high frequencies were also avoided to make it easier for programmers to develop their program in their format of choice. This is also the first language where the documentation can be found on the same page as the program input, thus removing the need for new programmers to flip between tabs to check instructions.</p>
-                        <p>If you'd like to check out <span class="italic">creative writing</span> for yourself, you can find it <a href="https://danlliu.github.io/creativewriting" target="_blank" rel="noopener noreferrer">here</a>!</p>`
+                        `<p>This is a game where the player needs to guess the correct word before the maximum number of guesses, which is symbolized by a complete stick man figure representation.</p>
+                        <p>The game logic is primarily implemented through the changes in the props and states of several <span class="italic">React Components</span>. Furthermore, to ensure performance optimization in the execution time of the game, I developed a <span class="italic">Service Worker</span> that runs in conjunction with the game to serve static image assets from the local cache. This lets the game load faster on subsequent visits in production and gives it offline capabilities. However, it also means that users of this game will only see deployed updates on the "N+1" visit to a page since previously cached resources are updated in the background.</p>
+                        <p>If you would like to check out Hangman for yourself, you can find it <a href="https://arryan135.github.io/hangman/" target="_blank" rel="noopener noreferrer">here</a>! (If it feels too zoomed in, just zoom out)</p>
+                        <p>If you would like to know more about the game’s implementation details, check out my GitHub <a href="https://github.com/arryan135/hangman" target="_blank" rel="noopener noreferrer">repo</a>.</p>`
                     },
                     {
                         name: "LC2K01",
