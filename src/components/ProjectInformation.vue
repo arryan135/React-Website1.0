@@ -66,10 +66,12 @@
                         <p>If you would like to know more about the game’s implementation details, check out my GitHub <a href="https://github.com/arryan135/hangman" target="_blank" rel="noopener noreferrer">repo</a>.</p>`
                     },
                     {
-                        name: "LC2K01",
+                        name: "Lights Out",
                         html:
-                        `<p>Learning assembly language is almost a rite of passage for programmers. You no longer have the comforts of the compiler and programming language managing some aspects of memory for you, but instead you have full control over the contents of memory. The number of variables that can be quickly accessed is limited by your registers. I wanted to create a simulator for those learning assembly to try out short segments without worrying about setting up an entire program. I chose to use the LEGv8 ISA, which is a subset of the ARMv8 ISA. To make writing assembly a bit simpler, I also included preprocessor directives such as %, FILL, and ALIGN, as well as a HLT instruction.</p>
-                        <p>If you'd like to check out LC2K01 for yourself, you can find it <a href="https://danlliu.github.io/lc2k01" target="_blank" rel="noopener noreferrer">here</a>!</p>`
+                        `<p>Lights Out is a puzzle game, played on a grid of individual lights, which can be lit or unlit. The puzzle is won when all of the lights are turned off. You can click on a cell to toggle the light in a cell, but it also toggles the light above it, to the left of it, to the right of it, and below it. Cells on the edge or in the corner won’t flip as many lights, since they are missing some neighbors.</p>
+                         <p>Developing this <span class="italic">React</span> application, strengthened my skills to efficiently design web applications using stateful parent components that pass down their <span class="italic">state</span> as <span class="italic">props</span> to multiple child components. Subsequently, every click inside the grid triggers several event handlers in parent and child <span class="italic">React</span> components. The app also uses extensive logic to make sure that the random boards created at the start of the game are always solvable. For performance optimization, this application also utilizes a <span class="italic">Service Worker</span> that lets it load faster on subsequent visits in production, and gives it offline capabilities.</p>
+                         <p>If you would like to check out Lights Out for yourself, you can find it <a href="https://arryan135.github.io/lights_out/" target="_blank" rel="noopener noreferrer">here</a>! I am personally terrible at this game and I hope you are better at playing it than I am!</p>
+                         <p>If you would like to know more about the app’s implementation details, check out my GitHub <a href="https://github.com/arryan135/lights_out" target="_blank" rel="noopener noreferrer">repo</a>.</p>`
                     },
                     {
                         name: "Maze Maker",
