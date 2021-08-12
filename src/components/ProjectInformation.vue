@@ -58,10 +58,12 @@
                         <p>If you would like to know more about the API’s implementation details, check out my GitHub <a href="https://github.com/arryan135/task_manager" target="_blank" rel="noopener noreferrer">repo</a>.</p>`
                     },
                     {
-                        name: "Maze Maker",
+                        name: "Yahtzee ",
                         html:
-                        `<p>One of my earliest HTML projects, I implemented the Aldous-Broder algorithm to randomly generate mazes of an arbitrary size. The mazes are displayed using HTML canvas. Due to the algorithm used to generate the maze, every cell is reachable from the beginning, and there is a unique solution from beginning to end.</p>
-                        <p>If you'd like to check out Maze Maker for yourself, you can find it <a href="https://danlliu.github.io/Maze-Maker" target="_blank" rel="noopener noreferrer">here</a>!</p>`
+                        `<p>I developed Yahtzee to reinforce the probability concepts I learned in EECS 203. This <span class="italic">React</span> application is a chance-and-strategy dice rolling game that is played over 13 rounds. During each round, the players roll five 6-sided dice. They may click on any number of dice to “freeze” or “unfreeze” them (frozen dice are displayed in a different color), and they may re-roll the unfrozen dice up to 2 times. After each round, the player assigns their dice to any unclaimed scoring category, where each category scores differently. After 13 rounds, the game is over, and the player’s final score is the total of each scoring category.</p>
+                         <p>Developing this <span class="italic">React</span> application, helped me build upon my skills to efficiently design web applications using multiple stateful parent components that pass down their state as props to multiple child components. Every click to either roll the dice or score points, fires custom <span class="italic">CSS animations</span>, executes extensive rule checking <span class="italic">JavaScript</span> code and, according to the results of those rules, triggers several event handlers that alter the state in multiple parent and child <span class="italic">React</span> components. To optimization the production build's performance, this application also utilizes a <span class="italic">Service Worker</span> that executes efficient caching so that the app can load faster on subsequent visits in production, while also providing the app offline capabilities.</p>
+                         <p>If you would like to check out Yahtzee for yourself, you can find it <a href="https://arryan135.github.io/yahtzee/" target="_blank" rel="noopener noreferrer">here</a>! (If it feels too zoomed in on your browser, just zoom out)</p>
+                         <p>If you would like to know more about the game’s implementation details, check out my GitHub <a href="https://github.com/arryan135/yahtzee" target="_blank" rel="noopener noreferrer">repo</a>.</p>`
                     },
                     {
                         name: "Lights Out",
@@ -76,7 +78,7 @@
                         html:
                         `<p>This is a game where the player needs to guess the correct word before the maximum number of guesses, which is symbolized by a complete stick man figure representation.</p>
                         <p>The game logic is primarily implemented through the changes in the props and states of several <span class="italic">React Components</span>. Furthermore, to ensure performance optimization in the execution time of the game, I developed a <span class="italic">Service Worker</span> that runs in conjunction with the game to serve static image assets from the local cache. This lets the game load faster on subsequent visits in production and gives it offline capabilities. However, it also means that users of this game will only see deployed updates on the "N+1" visit to a page since previously cached resources are updated in the background.</p>
-                        <p>If you would like to check out Hangman for yourself, you can find it <a href="https://arryan135.github.io/hangman/" target="_blank" rel="noopener noreferrer">here</a>! (If it feels too zoomed in, just zoom out)</p>
+                        <p>If you would like to check out Hangman for yourself, you can find it <a href="https://arryan135.github.io/hangman/" target="_blank" rel="noopener noreferrer">here</a>! (If it feels too zoomed in on your browser, just zoom out)</p>
                         <p>If you would like to know more about the game’s implementation details, check out my GitHub <a href="https://github.com/arryan135/hangman" target="_blank" rel="noopener noreferrer">repo</a>.</p>`
                     },
                     {
@@ -115,12 +117,12 @@
                             <small id="turret3-caption">The upgrade screen of Turret Wars, allowing the player to make their spaceship better.</small>
                          </div>`
                     },
-                    // {
-                    //     name: "linktracker",
-                    //     html:
-                    //     `<p>During the pandemic, many of us use virtual conferencing software such as Zoom or Google Meet to collaborate with others. However, it can be tough to keep track of the myriad links used to join different meetings. That's why I developed linktracker, an app that helps you keep track of meeting links in your browser. Using the browser's storage, linktracker is able to remember when your meetings take place and the links associated with them, and gives you the option to filter events in different ways. linktracker also includes some convenience features such as editing events, and dark mode.</p>
-                    //     <p>If you'd like to try out linktracker for yourself, you can find it <a href="https://danlliu.github.io/linktracker" target="_blank" rel="noopener noreferrer">here</a>!</p>`
-                    // }
+                    {
+                        name: "linktracker",
+                        html:
+                        `<p>During the pandemic, many of us use virtual conferencing software such as Zoom or Google Meet to collaborate with others. However, it can be tough to keep track of the myriad links used to join different meetings. That's why I developed linktracker, an app that helps you keep track of meeting links in your browser. Using the browser's storage, linktracker is able to remember when your meetings take place and the links associated with them, and gives you the option to filter events in different ways. linktracker also includes some convenience features such as editing events, and dark mode.</p>
+                        <p>If you'd like to try out linktracker for yourself, you can find it <a href="https://danlliu.github.io/linktracker" target="_blank" rel="noopener noreferrer">here</a>!</p>`
+                    }
                 ]
             }
         },
