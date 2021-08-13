@@ -155,71 +155,55 @@
                 <div class="col-12 col-md-6 p-3">
                     <div class="card mb-4">
                         <div class="card-body">
-                            <h5 class="card-title">Kapritsos Research Group</h5>
-                            <h6 class="card-subtitle mb-1">University of Michigan, Department of Electrical
-                                Engineering and Computer Science</h6>
-                            <h6 class="card-subtitle mb-2 text-muted">May 2021 - present</h6>
+                            <h5 class="card-title">Development of the Materials Simulation Toolkit for Machine Learning</h5>
+                            <h6 class="card-subtitle mb-1">University of Wisconsin Madison, Department of Materials Science and Engineering</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">January 2020 - May 2020</h6>
                             <p><span class="bold">Advisor:</span> <a
-                                    href="https://web.eecs.umich.edu/~manosk/" target="_blank"
-                                    rel="noopener noreferrer">Prof. Manos Kapritsos</a></p>
+                                    href="https://directory.engr.wisc.edu/mse/Staff/Jacobs_Ryan/" target="_blank"
+                                    rel="noopener noreferrer">Ryan Jacobs</a></p>
                             <hr/>
-                            <p class="small">I am working with Prof. Manos Kapritsos on improving the usability of Dafny. Dafny is a programming language designed for formal verification: proving that code is guaranteed to behave correctly for all inputs. Specifically, I am working on ways to help Dafny developers navigate matching loops, a common pitfall where the proof engine gets stuck in an ever-growing loop of facts. By identifying these loops early, we can save developers from wasting time running their code, just to see a timeout message.</p>
+                            <p class="small">The Materials Simulation Toolkit for Machine Learning (MAST-ML) is an automated, open-source toolkit designed to accelerate data-driven materials research. I updated this software with new analysis routines that are central to understanding the performance of machine learning models as they pertain to materials research.</p>
+                            <h6 class="small">Machine Learning algorithms I implemented for the MAST-ML framework:</h6>
+                            <ul class="small">
+                                <li>K-Medoids clustering algorithm that generates data clusters while keeping low memory consumption relative to its competitor K-Means.</li>
+                                <li>ElemNet, a deep neural network model that takes only the elemental compositions as inputs and leverages artificial intelligence to automatically capture the essential chemistry to predict materials properties.</li>
+                                <li>IRNet, a deep regression network with individual residual learning that places shortcut connections after each layer so that each layer learns the residual mapping between its output and input. This model solves the problem of learning properties of inorganic materials from numerical attributes that are derived from a material composition or crystal structure.</li>
+                            </ul>
+                            <p class="small">I also utilized my skills in Python's visualization libraries like Matplotlib, Seaborn, and Plotly to make the model's performance visuals more informative.</p>
                         </div>
                     </div>
 
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Sanford Lab</h5>
-                            <h6 class="card-subtitle mb-1">University of Michigan, Department of Chemistry</h6>
-                            <h6 class="card-subtitle mb-2 text-muted">September 2019 - present</h6>
-                            <p><span class="bold">Advisor:</span> <a
-                                    href="https://sites.lsa.umich.edu/msanford-lab/" target="_blank"
-                                    rel="noopener noreferrer">Prof. Melanie Sanford</a></p>
+                            <h5 class="card-title">Informatics Skunkworks</h5>
+                            <h6 class="card-subtitle mb-1">University of Wisconsin Madison, Department of Materials Science and Engineering</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">September 2019 - December 2019</h6>
+                            <p><span class="bold">Advisor:</span> Benjamin Afflerbach</p>
                             <hr/>
-                            <p class="small">Currently, I am working with Prof. Melanie Sanford, continuing my research on C–H activation.
-                                Alongside working in the lab to develop new functionalization reactions, I have been working on modeling the C–H activation
-                                process computationally.</p>
+                            <p class="small">Informatics Skunkworks is a group dedicated to engaging undergraduates in project-based research, project management, software development, 
+                                and applied data science. Here, I researched methods to predict the fatigue strengths of elements from factors such as electron affinity, atomic radii, and other such characteristic data. 
+                                By the end of this research, I developed a machine learning model that utilized cross-validation scores to classify results accurately.
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 p-3">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Young Lab</h5>
-                            <h6 class="card-subtitle mb-1">The University of Toledo, Department of Chemistry and
-                                Biochemistry</h6>
-                            <h6 class="card-subtitle mb-2 text-muted">March 2017 - August 2019</h6>
-                            <p><span class="bold">Advisor:</span> <a href="https://www.younggroupchem.com/" target="_blank"
-                                                                     rel="noopener noreferrer">Prof. Michael
-                                Young</a></p>
+                            <h5 class="card-title">Wisconsin Institute for Discovery</h5>
+                            <h6 class="card-subtitle mb-1">University of Wisconsin Madison</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">January 2020 - May 2020</h6>
+                            <p><span class="bold">Advisor:</span> <a href="http://pages.stat.wisc.edu/~karlrohe/index.html" target="_blank"
+                                                                     rel="noopener noreferrer"> Karl Rohe</a></p>
                             <hr/>
-                            <p class="small">I worked under Prof. Michael
-                                Young at The University of Toledo,
-                                developing new C–H activation methodology for amine substrates. My research focused
-                                on expanding the substrate scope of C–H functionalization reactions by using carbon
-                                dioxide to help promote the key C–H activation step.</p>
-                            <h6 class="small">Publications:</h6>
+                            <p class="small">I worked with a team of undergraduates where we wanted to explore the relationship between median household income and voting in the 2016 presidential election across the US.</p>
+                            <p class="small">This research made extensive use of R in conjunction with statistical learning concepts such as simple linear regression, multiple linear regression, cross-validation, Principal Component Analysis(PCA), and regression coefficients.</p>
+                            <h6 class="small">We created two highly accurate predictive statistical models to justify that houses with relatively high household incomes vote for the Republican Party</h6>
                             <ul class="small">
-                                <li>Kapoor, M.; <span class="bold" style="text-decoration: underline">Liu, D.</span>; Young,
-                                    M. C. "Carbon Dioxide Mediated C(sp3)–H Arylation of Amine Substrates." <span
-                                            class="italic">J. Am.
-                                        Chem. Soc.</span> <span class="bold">2018</span>,
-                                    <span class="italic">140</span>, 6818-6822.</li>
-                                <li>
-                                    Kapoor, M.; Chand-Thakuri, P.; Maxwell, J. M.;
-                                    <span class="bold" style="text-decoration: underline">Liu, D.</span>;
-                                    Zhou, H.; Young, M. C. “Carbon Dioxide-Driven Palladium-Catalyzed C–H Activation
-                                    of Amines: A Unified Approach for the Arylation of Aliphatic and Aromatic Primary
-                                    and Secondary Amines.” <span class="italic">Synlett</span> <span
-                                        class="bold">2019</span>, <span class="italic">30</span>, 519-524.
-                                </li>
-                                <li>
-                                    Young, M. C.; Djernes, K. E.; Payton, J. L.; <span class="bold" style="text-decoration: underline">Liu, D.</span>;
-                                    Hooley, R. J. “Resorcin[4]arenes: A Simple Scaffold to Study Supramolecular Self-Assembly and Host:Guest Interactions for the Undergraduate Curriculum.”
-                                    <span class="italic">J. Chem. Ed.</span> <span class="bold">2019</span>, <span
-                                        class="italic">96</span>, 4, 781-785.
-                                </li>
+                                <li>The first model predicted the percent of people who vote for the Republican Party versus the median household income</li>
+                                <li>The second model predicted the percent of people who vote for the Republican Party versus the median household income, international migration rate, population estimate by county in 2016, housing prices in 2016, unemployment rate, and the percent of people with a bachelor's degree education or higher.</li>
                             </ul>
+                            <p class="small">The data for all the above-mentioned features was obtained from reputable sources online and cleaned accordingly.</p>
                         </div>
                     </div>
                 </div>
