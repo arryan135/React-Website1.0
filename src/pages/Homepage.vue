@@ -24,7 +24,7 @@
                         <a class="nav-link" href="#section-work-exp">work experience</a>
                         <a class="nav-link" href="#section-research">research experience</a>
                         <a class="nav-link" href="#section-contact">contact</a>
-                        <a class="nav-link" href="#section-resume">résumé</a>
+                        <!-- <a class="nav-link" href="#section-resume">résumé</a> -->
                     </div>
                 </div>
             </div>
@@ -222,10 +222,10 @@
                 </ul>
             </div>
         </div>
-        <div class="section container">
+        <!-- <div class="section container">
             <a class="anchor" id="section-resume"/>
             <h2><i class="bi-file-text"/> Résumé</h2>
-            <p>Click below to download my résumé!</p>
+            <p>Will be attached soon. Stay tuned!</p>
             <a href="daniel-liu-resume-cs.pdf" class="bi-download mt-3 link-clean link-black" download>
                 computer science résumé (159 KB)
             </a>
@@ -235,7 +235,7 @@
             <a href="daniel-liu-resume.pdf" class="bi-download mt-3 link-clean link-black" download>
                 full résumé (160 KB)
             </a>
-        </div>
+        </div> -->
     </div>
 </template>
 
