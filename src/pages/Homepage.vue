@@ -215,9 +215,9 @@
             <h2><i class="bi-chat-left-dots"/> Contact Me!</h2>
             <div class="container">
                 <ul style="list-style: none; padding-left: 0;">
-                    <li><a href="mailto:danlliu@umich.edu" class="link-clean" target="_blank" rel="noopener noreferrer"><i class="bi-envelope"/> danlliu@umich.edu</a></li>
-                    <li><a href="https://github.com/danlliu" class="link-clean" target="_blank" rel="noopener noreferrer"><i class="bi-github"/> github.com/danlliu</a></li>
-                    <li><a href="https://www.linkedin.com/in/daniel-liu-455b84205/" class="link-clean"
+                    <li><a href="mailto:arryan@umich.edu" class="link-clean" target="_blank" rel="noopener noreferrer"><i class="bi-envelope"/> arryan@umich.edu</a></li>
+                    <li><a href="https://github.com/arryan135" class="link-clean" target="_blank" rel="noopener noreferrer"><i class="bi-github"/> github.com/arryan135</a></li>
+                    <li><a href="https://www.linkedin.com/in/aryanmalik135" class="link-clean"
                            target="_blank" rel="noopener noreferrer"><i class="bi-linkedin"/> my LinkedIn</a></li>
                 </ul>
             </div>
