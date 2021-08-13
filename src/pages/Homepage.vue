@@ -222,7 +222,6 @@
                 </ul>
             </div>
         </div>
-
         <div class="section container">
             <a class="anchor" id="section-resume"/>
             <h2><i class="bi-file-text"/> Résumé</h2>
