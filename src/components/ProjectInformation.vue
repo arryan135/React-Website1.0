@@ -82,18 +82,6 @@
                         <p>If you would like to know more about the game’s implementation details, check out my GitHub <a href="https://github.com/arryan135/hangman" target="_blank" rel="noopener noreferrer">repo</a>.</p>`
                     },
                     {
-                        name: "chatroom",
-                        html:
-                        `<p><span class="italics">chatroom</span> is a chat application that allows users to create and join rooms. Each user is uniquely identified by a random string of four hex digits. Users can tag each other using their identifier. Using socket.io, multiple computers on the same network can join the same rooms, and different rooms will not intefere with each other.</p>
-                         <h4>Image Gallery:</h4>
-                         <div class="container mb-3">
-                            <div>
-                                <img class="img-fluid" src="img/chatroom1.png" aria-describedby="chatroom1-caption">
-                            </div>
-                            <small id="chatroom1-caption">The main interface of chatroom.</small>
-                         </div>`
-                    },
-                    {
                         name: "Turret Wars",
                         html:
                         `<p>Over the course of approximately a week, I designed a space-themed shooter game. In this game, your aim is to take out turrets before they take you out. After a few levels, you're able to use shields to take damage, and later on use an EMP to stop turrets from shooting temporarily. The project as a whole was over 3000 lines of Swift code, and was coded using Apple's SpriteKit framework for the physics and animation.</p>
@@ -118,10 +106,20 @@
                          </div>`
                     },
                     {
-                        name: "linktracker",
+                        name: "What is the weather like?",
                         html:
-                        `<p>During the pandemic, many of us use virtual conferencing software such as Zoom or Google Meet to collaborate with others. However, it can be tough to keep track of the myriad links used to join different meetings. That's why I developed linktracker, an app that helps you keep track of meeting links in your browser. Using the browser's storage, linktracker is able to remember when your meetings take place and the links associated with them, and gives you the option to filter events in different ways. linktracker also includes some convenience features such as editing events, and dark mode.</p>
-                        <p>If you'd like to try out linktracker for yourself, you can find it <a href="https://danlliu.github.io/linktracker" target="_blank" rel="noopener noreferrer">here</a>!</p>`
+                        `<p>This is one of my earliest <span class="italic">NodeJS</span> applications. This is a weather application that fetches the real-time weather information for the location entered by the user.</p>
+                         <p>The application is implemented using a backend <span class="italic">Express</span> server which is also wired up to a frontend <span class="italic">Javascript Client</span>. Embedded within an <span class="italic">Express GET route</span>, the application first processes the latitude and longitude of the location entered by the user using the <span class="italic">Mapbox API</span>. This geolocation data is then passed on to the <span class="italic">Weather Stack API</span> to get real-time weather information. These subsequent API requests are made through nested <span class="italic">asynchronous JavaScript</span> code and the relevant weather information is then extracted from the JSON data received from these requests. Finally, the weather data is injected into the frontend HTML. This frontend HTML is templated using <span class="italic">Handlebars</span>, which streamlines the process of injecting data acquired from asynchronous code.</p>
+                         <p>If you would like to check out this application for yourself, you can find it <a href="https://arryan-weather-application.herokuapp.com" target="_blank" rel="noopener noreferrer">here</a>!</p>
+                         <p>If you would like to know more about this application’s implementation details, check out my GitHub <a href="https://github.com/arryan135/NodeJS-Weather-App" target="_blank" rel="noopener noreferrer">repo</a>.</p>`
+                    },
+                    {
+                        name: "Instagram Database Clone",
+                        html:
+                        `<p>This is a partial clone of Instagram’s database made primarily using <span class="italic">mySQL</span>.</p>
+                         <p>The clone consists of <span class="italic">SQL tables</span> for the users, photos posted by the users, users’ comments, likes for users’ photos, users’ followers, and tags for the users’ photos. Most of the table definitions contain a <span class="italic">Foreign Key</span> argument with appropriate IDs in order to establish a <span class="italic">many-to-many relationship</span>. Using <span class="italic">JavaScript</span> and the <span class="italic">faker library</span>, I populated the tables with artificial data. The implementation to add artificial data also makes sure to include Instagram bots that like every picture and follow every user. This addition was done intentionally as after setting up the data, I used <span class="italic">SQL</span> scripts to find all the information pertaining to Instagram Bots in my database. Throughout the project, I asked myself many other hypothetical questions about my dataset and I attempted to answer them using <span class="italic">SQL</span> scripts.</p>
+                         <p>Furthermore, entries to a table that signify a user attempting to follow itself are stopped by using <span class="italic">SQL Data Triggers</span>. This trigger executes before an invalid self-follow insert is executed. Along the same lines, when a user unfollows someone, I implemented a data trigger to keep a record of the unfollow history for that user and it executes after the unfollow occurs.</p>
+                         <p>If you would like to check out the <span class="italic">SQL</span> scripts or know more about how I attempted to answer several other hypothetical questions pertaining to my artificial Instagram database, check out my GitHub <a href="https://github.com/arryan135/instagram_db_clone" target="_blank" rel="noopener noreferrer">repo</a>!</p>`
                     }
                 ]
             }
