@@ -43,12 +43,12 @@
                          <p>If you would like to check out Palette Splash for yourself, you can find it <a href="https://arryan135.github.io/palette_splash/" target="_blank" rel="noopener noreferrer">here</a>!</p>
                          <p>If you would like to know more about the implementation details, check out my GitHub <a href="https://github.com/arryan135/palette_splash" target="_blank" rel="noopener noreferrer">repo</a>.</p>`
                     },
-                    {
-                        name: "shift",
-                        html:
-                        `<p>Second of four in the programming languages series of projects, <span class="italic">shift</span> is a return to a more traditional syntax. Using only characters that can be accessed when the Shift key is held down on a U.S. layout keyboard, and taking inspiration from Bash syntax, shift provides 26 registers and 4096 words of memory for the program. Although stack frames are a bit trickier to work with, the readability is very much improved over beep boop.</p>
-                        <p>If you'd like to check out <span class="italic">shift</span> for yourself, you can find it <a href="https://danlliu.github.io/shift" target="_blank" rel="noopener noreferrer"> here</a>!</p>`
-                    },
+                    // {
+                    //     name: "shift",
+                    //     html:
+                    //     `<p>Second of four in the programming languages series of projects, <span class="italic">shift</span> is a return to a more traditional syntax. Using only characters that can be accessed when the Shift key is held down on a U.S. layout keyboard, and taking inspiration from Bash syntax, shift provides 26 registers and 4096 words of memory for the program. Although stack frames are a bit trickier to work with, the readability is very much improved over beep boop.</p>
+                    //     <p>If you'd like to check out <span class="italic">shift</span> for yourself, you can find it <a href="https://danlliu.github.io/shift" target="_blank" rel="noopener noreferrer"> here</a>!</p>`
+                    // },
                     {
                         name: "Task Manager",
                         html:
@@ -81,30 +81,30 @@
                         <p>If you would like to check out Hangman for yourself, you can find it <a href="https://arryan135.github.io/hangman/" target="_blank" rel="noopener noreferrer">here</a>! (If it feels too zoomed in on your browser, just zoom out)</p>
                         <p>If you would like to know more about the game’s implementation details, check out my GitHub <a href="https://github.com/arryan135/hangman" target="_blank" rel="noopener noreferrer">repo</a>.</p>`
                     },
-                    {
-                        name: "Turret Wars",
-                        html:
-                        `<p>Over the course of approximately a week, I designed a space-themed shooter game. In this game, your aim is to take out turrets before they take you out. After a few levels, you're able to use shields to take damage, and later on use an EMP to stop turrets from shooting temporarily. The project as a whole was over 3000 lines of Swift code, and was coded using Apple's SpriteKit framework for the physics and animation.</p>
-                         <h4>Image Gallery:</h4>
-                         <div class="container mb-3">
-                            <div>
-                                <img class="img-fluid" src="img/turret1.png" aria-describedby="turret1-caption">
-                            </div>
-                            <small id="turret1-caption">A sniper turret shooting a bullet at the player.</small>
-                         </div>
-                         <div class="container mb-3">
-                            <div>
-                                <img class="img-fluid" src="img/turret2.png" aria-describedby="turret2-caption">
-                            </div>
-                            <small id="turret2-caption">A basic turret shooting at the player, who can hide behind the barriers for cover.</small>
-                         </div>
-                         <div class="container mb-3">
-                            <div>
-                                <img class="img-fluid" src="img/turret3.png" aria-describedby="turret3-caption">
-                            </div>
-                            <small id="turret3-caption">The upgrade screen of Turret Wars, allowing the player to make their spaceship better.</small>
-                         </div>`
-                    },
+                    // {
+                    //     name: "Turret Wars",
+                    //     html:
+                    //     `<p>Over the course of approximately a week, I designed a space-themed shooter game. In this game, your aim is to take out turrets before they take you out. After a few levels, you're able to use shields to take damage, and later on use an EMP to stop turrets from shooting temporarily. The project as a whole was over 3000 lines of Swift code, and was coded using Apple's SpriteKit framework for the physics and animation.</p>
+                    //      <h4>Image Gallery:</h4>
+                    //      <div class="container mb-3">
+                    //         <div>
+                    //             <img class="img-fluid" src="img/turret1.png" aria-describedby="turret1-caption">
+                    //         </div>
+                    //         <small id="turret1-caption">A sniper turret shooting a bullet at the player.</small>
+                    //      </div>
+                    //      <div class="container mb-3">
+                    //         <div>
+                    //             <img class="img-fluid" src="img/turret2.png" aria-describedby="turret2-caption">
+                    //         </div>
+                    //         <small id="turret2-caption">A basic turret shooting at the player, who can hide behind the barriers for cover.</small>
+                    //      </div>
+                    //      <div class="container mb-3">
+                    //         <div>
+                    //             <img class="img-fluid" src="img/turret3.png" aria-describedby="turret3-caption">
+                    //         </div>
+                    //         <small id="turret3-caption">The upgrade screen of Turret Wars, allowing the player to make their spaceship better.</small>
+                    //      </div>`
+                    // },
                     {
                         name: "What is the weather like?",
                         html:
