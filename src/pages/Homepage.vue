@@ -95,24 +95,18 @@
                 <div class="col-12 col-lg-6 col-xl-4 p-3">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Instructional Aide</h5>
+                            <h5 class="card-title">Supplemental Instruction(SI) Leader for EECS 280 (Intro Data Structures)</h5>
                             <h6 class="card-subtitle mb-2">University of Michigan</h6>
-                            <h6 class="card-subtitle mb-2 text-muted">EECS281 (Fall 2020)</h6>
-                            <h6 class="card-subtitle mb-2 text-muted">EECS370 (Winter, Spring 2021)</h6>
+                            <h6 class="card-subtitle mb-2">Engineering Center for Academic Success</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">Fall 2021 - Present</h6>
                             <hr/>
                             <ul>
-                                <li>Part of the teaching staff on two main-sequence courses for computer science
-                                   majors (700+ students during Fall and Winter semesters).</li>
-                                <li>Taught EECS370 during the double pace spring semester (100+ students)</li>
+                                <li>Teaching students programming and data structures in C++.</li>
                                 <li>Responsibilities include:
                                     <ul>
-                                        <li>Aid students in understanding concepts
-                                            and completing the coding projects with regular office hours.</li>
-                                        <li>Reinforce conceptual understanding through weekly discussion sections.</li>
-                                        <li>Test student understanding of course material by writing exam questions
-                                            .</li>
-                                        <li>Collaborate with course staff and instructors to ensure that the course
-                                        experience is as smooth as possible for students.</li>
+                                        <li>Aided students in building conceptual clarity of fundamental data structures concepts.</li>
+                                        <li>Helped students understand project specifications, coached them on implementation strategies through collaborative learning and weekly lectures.</li>
+                                        <li>Resolved IDE and logic errors in student projects via office hours.</li>
                                     </ul>
                                 </li>
                             </ul>
@@ -123,21 +117,18 @@
                 <div class="col-12 col-lg-6 col-xl-4 p-3">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Mathematics Tutor</h5>
+                            <h5 class="card-title">Supplemental Instruction(SI) Leader for MATH 215 (Multivariable Calculus)</h5>
                             <h6 class="card-subtitle mb-2">University of Michigan</h6>
-                            <h6 class="card-subtitle mb-2">Comprehensive Studies Program</h6>
-                            <h6 class="card-subtitle mb-2 text-muted">Fall 2019 - Winter 2021</h6>
+                            <h6 class="card-subtitle mb-2">Engineering Center for Academic Success</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">Winter 2021 - Present</h6>
                             <hr/>
                             <ul>
-                                <li>Tutored students in college-level precalculus and calculus through the
-                                    Comprehensive Studies Program (CSP), which aims to serve underrepresented
-                                    students.</li>
+                                <li>Tutored students in Multivariable Calculus, which is the third course in the sequence of four calculus courses.</li>
                                 <li>Responsibilities include:
                                     <ul>
-                                        <li>Reinforce student understanding of mathematics by guiding them through
-                                            solutions to practice problems.</li>
-                                        <li>Help students prepare for exams by recognizing and reviewing concepts
-                                            that they may be struggling with.</li>
+                                        <li>Facilitated discussions of critical course concepts and problem-solving of example problems and/or exam-type problems.</li>
+                                        <li>Modeled and taught critical learning skills like problem-solving, content analysis, exam preparation techniques, and error analysis.</li>
+                                        <li>Promoted student behavior conducive to academic success and provided a positive environment in which learning can occur.</li>
                                     </ul>
                                 </li>
                             </ul>
@@ -148,10 +139,9 @@
                 <div class="col-12 col-lg-6 col-xl-4 p-3">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">You could be here!</h5>
+                            <h5 class="card-title">I could be working for your organization!</h5>
                             <hr/>
-                            <p>I'm always on the lookout for new opportunities! If you're interested in working with
-                                me, feel free to <a href="#section-contact">contact me</a>!</p>
+                            <p>I'm always on the lookout for new opportunities, espcially those pertaining to Software Engineering. If you find my skills relevant, feel free to <a href="#section-contact">contact me</a>!</p>
                         </div>
                     </div>
                 </div>
