@@ -43,12 +43,14 @@
                          <p>If you would like to check out Palette Splash for yourself, you can find it <a href="https://arryan135.github.io/palette_splash/" target="_blank" rel="noopener noreferrer">here</a>!</p>
                          <p>If you would like to know more about the implementation details, check out my GitHub <a href="https://github.com/arryan135/palette_splash" target="_blank" rel="noopener noreferrer">repo</a>.</p>`
                     },
-                    // {
-                    //     name: "shift",
-                    //     html:
-                    //     `<p>Second of four in the programming languages series of projects, <span class="italic">shift</span> is a return to a more traditional syntax. Using only characters that can be accessed when the Shift key is held down on a U.S. layout keyboard, and taking inspiration from Bash syntax, shift provides 26 registers and 4096 words of memory for the program. Although stack frames are a bit trickier to work with, the readability is very much improved over beep boop.</p>
-                    //     <p>If you'd like to check out <span class="italic">shift</span> for yourself, you can find it <a href="https://danlliu.github.io/shift" target="_blank" rel="noopener noreferrer"> here</a>!</p>`
-                    // },
+                    {
+                        name: "Chat with me!",
+                        html:
+                        `<p>This is a real-time chat application build using <span class="italic">Socket.io</span> and <span class="italic">NodeJS</span>. It allows users to create and join rooms so that they can chat among themselves. While chatting, the users are also given the functionality to share their current location via a simple button click.</p>
+                         <p>The process of creating a user and a room first goes through some validation, which makes sure that the username and the room name are unique. After this validation, using <span class="italic">Socket.io</span> a network TCP link is established between the server and clients. This underlining TCP network connection enabled using <span class="italic">Socket.io</span> makes sure that users are effectively able to chat among themselves in real-time. Built upon an <span class="italic">Express</span> server, the <span class="italic">Socket.io</span> server is responsible for handling client-related events. These events range from allowing a client to join rooms, send messages, send google map location links, and disconnecting a user’s socket connection when he/she leaves the chat app. Subsequently, this server-side chat data is injected into <span class="italic">Mustache</span> templated client-side <span class="italic">HTML</span> files using <span class="italic">Vanilla JavaScript</span>. This client-side <span class="italic">JavaScript</span> is also responsible to implement a thoughtful auto-scroll functionality for the chats.</p>
+                         <p>If you would like to check out this chat app for yourself, you can find it <a href="https://arryan-websocket-chat-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">here</a>!</p>
+                         <p>If you would like to know more about this app’s implementation details, check out my GitHub <a href="https://github.com/arryan135/Node-socket-chat-app" target="_blank" rel="noopener noreferrer">repo</a>.</p>`
+                    },
                     {
                         name: "Task Manager",
                         html:
