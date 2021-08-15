@@ -236,7 +236,7 @@
                 full résumé (160 KB)
             </a>
         </div> -->  
-    </div>
+    </div> 
 </template>
 
 <script>
