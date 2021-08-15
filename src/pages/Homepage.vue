@@ -235,7 +235,7 @@
             <a href="daniel-liu-resume.pdf" class="bi-download mt-3 link-clean link-black" download>
                 full résumé (160 KB)
             </a>
-        </div> --> 
+        </div> -->  
     </div>
 </template>
 
