@@ -33,7 +33,7 @@
         <div class="section container" style="margin-top: 100vh;">
             <a class="anchor" id="section-about-me"/>
             <h2><i class="bi-person-lines-fill"/> About Me</h2>
-            <p>ADD PERSONAL DESCRIPTION END WITH REDIRECTING USER TO <a href="#section-projects">projects section</a>!</p>
+            <p>Hey, I am Aryan! As a driven, self-starter, and relentless learner, I am passionate about Front End and Back End Software Engineering. To apply my software engineering skills, I have worked on several coding projects. To learn more about them, head to the <a href="#section-projects">projects section</a>!</p>
         </div>
 
         <div class="section container">

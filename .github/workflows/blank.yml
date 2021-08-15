@@ -31,8 +31,8 @@
 #         # uses: xRealNeon/VuePagesAction@1fe4d0b38025bcbaafa71a359dd5c02f33bb03b7
 #         uses: xRealNeon/VuePagesAction@1.0.0
 #         with:
-#           username: "danlliu"
-#           reponame: "danlliu.github.io"
+#           username: "arryan135"
+#           reponame: "arryan.github.io"
 #           token: ${{ secrets.VUE_DEPLOY_TOKEN }}
-#           gitemail: "danlliu@umich.edu"
-#           gitname: "danlliu"
+#           gitemail: "arryan@umich.edu"
+#           gitname: "arryan135"

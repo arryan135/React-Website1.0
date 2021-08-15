@@ -3,6 +3,9 @@ node_modules
 /dist
 .github/wordkflows/blank.yml
 
+/public/img
+
+
 
 # local env files
 .env.local
